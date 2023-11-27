@@ -1,4 +1,4 @@
-console.log('Hello Jee babbar');
+console.log('Hello');
 
 const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
 
@@ -22,9 +22,9 @@ async function fetchWeatherDetails() {
         renderWeatherInfo(data);
     }
     catch(err) {
-        //handle the error here
+        
     }
-    //https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric
+   
 
 }
 
@@ -64,10 +64,10 @@ function switchTab(clickedTab) {
     else {
       searchForm.classList.remove("active");
       userInfoContainer.classList.remove("active");
-      //getFromSessionStorage();
+     
     }
 
-    // console.log("Current Tab", currentTab);
+    
   }
 }
 
